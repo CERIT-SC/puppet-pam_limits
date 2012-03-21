@@ -1,6 +1,3 @@
-# taken/inspired by:
-# http://projects.puppetlabs.com/projects/1/wiki/puppet_augeas#/etc/security/limits.conf
-# https://github.com/kupson/puppet-pam_limits/blob/master/manifests/init.pp
 define pam_limits::limit (
 	$ensure		= present,
 	$context	= undef,
