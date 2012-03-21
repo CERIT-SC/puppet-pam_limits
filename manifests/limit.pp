@@ -45,8 +45,8 @@ define pam_limits::limit (
 					require	=> Augeas["${name}"],
 					onlyif	=> "match #comment[. = '${comment}'] size == 0",
 					changes	=> [
-						"ins #comment before domain[last()]",
-						"set #comment[last()] '${comment}'"
+						"ins #comment before ${path_list}",
+						"set #comment[.=''] '${comment}'"
 					],
 			}
 		}
