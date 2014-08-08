@@ -1,6 +1,6 @@
 {
   "name": "ceritsc-pam_limits",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "author": "ceritsc",
   "summary": "PAM limits configuration via Augeas",
   "license": "MIT",

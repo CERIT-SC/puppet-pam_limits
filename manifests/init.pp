@@ -6,7 +6,7 @@ define pam_limits (
   $ensure   = present,
   $filename = '/etc/security/limits.conf'
 ) {
-  validate_string($domain, $type, $item, $value)
+  validate_string($domain, $type, $item)
   validate_absolute_path($filename)
 
   $comment = "Puppet managed limit (${domain}/${type}/${item}):"
