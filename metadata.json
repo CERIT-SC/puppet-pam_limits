@@ -1,0 +1,30 @@
+{
+  "name": "ceritsc-pam_limits",
+  "version": "0.9.0",
+  "author": "ceritsc",
+  "summary": "PAM limits configuration via Augeas",
+  "license": "MIT",
+  "source": "https://github.com/CERIT-SC/puppet-pam_limits.git",
+  "project_page": "https://github.com/CERIT-SC/puppet-pam_limits",
+  "issues_url": "https://github.com/CERIT-SC/puppet-pam_limits/issues",
+  "tags": [
+    "pam",
+    "pam_limits"
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "2.7"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 4.0.0"
+    }
+  ]
+}
