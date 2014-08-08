@@ -12,8 +12,8 @@ systems where Augeas can manage these files.
 
 This module is a mix of other Puppet modules and Wiki, esp.:
 
-* http://projects.puppetlabs.com/projects/1/wiki/puppet\_augeas#/etc/security/limits.conf
-* https://github.com/kupson/puppet-pam\_limits/blob/master/manifests/init.pp
+* http://projects.puppetlabs.com/projects/1/wiki/puppet_augeas#/etc/security/limits.conf
+* https://github.com/kupson/puppet-pam_limits/blob/master/manifests/init.pp
 
 to meet these requirements (which other modules didn't):
 
