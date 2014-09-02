@@ -1,3 +1,13 @@
+## 2014-09-02 - Release 0.9.2
+
+### Summary
+
+Fix metadata.json
+
+#### Bugfixes
+
+- Fix metadata.json module dependencies
+
 ## 2014-08-08 - Release 0.9.1
 
 ### Summary
