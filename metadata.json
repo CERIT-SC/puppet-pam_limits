@@ -1,6 +1,6 @@
 {
   "name": "ceritsc-pam_limits",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "author": "ceritsc",
   "summary": "PAM limits configuration via Augeas",
   "license": "MIT",
@@ -22,9 +22,6 @@
     }
   ],
   "dependencies": [
-    {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 4.0.0"
-    }
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.0.0"}
   ]
 }
